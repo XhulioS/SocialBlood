@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d3d8d8"
+    tools:context=".ProfileFragment">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:id="@+id/divider5"
+            android:layout_width="190dp"
+            android:layout_height="1dp"
+            android:layout_below="@+id/emri"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="154dp"
+            android:layout_marginTop="58dp"
+            android:layout_marginEnd="16dp"
+            android:background="#000000" />
+
+        <View
+            android:id="@+id/divider3"
+            android:layout_width="190dp"
+            android:layout_height="1dp"
+            android:layout_below="@+id/emri"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="154dp"
+            android:layout_marginTop="-2dp"
+            android:layout_marginEnd="14dp"
+            android:background="#000000" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="25dp"
+            android:text="Emri"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="80dp"
+            android:text="Mbiemri"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="140dp"
+            android:text="Email"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="200dp"
+            android:text="Vendbanimi"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="260dp"
+            android:text="Nr Celulari"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="320dp"
+            android:text="Ditelindja"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="380dp"
+            android:text="Grupi i Gjakut"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/password"
+            android:layout_width="240dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="430dp"
+            android:background="#000000"
+            android:text="Ndrysho fjalekalimin"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp" />
+
+
+        <TextView
+            android:id="@+id/emri"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="serif-monospace"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/mbiemri"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="80dp"
+            android:fontFamily="serif-monospace"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="140dp"
+            android:fontFamily="serif-monospace"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/vendbanimi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="200dp"
+            android:fontFamily="serif-monospace"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/celulari"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="260dp"
+            android:fontFamily="serif-monospace"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/ditelindja"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="320dp"
+            android:fontFamily="serif-monospace"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/gjaku"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="380dp"
+            android:fontFamily="serif-monospace"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="190dp"
+            android:layout_height="1dp"
+            android:layout_below="@+id/emri"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="154dp"
+            android:layout_marginTop="180dp"
+            android:layout_marginEnd="16dp"
+            android:background="#000000" />
+
+        <View
+            android:id="@+id/divider7"
+            android:layout_width="190dp"
+            android:layout_height="1dp"
+            android:layout_below="@+id/emri"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="154dp"
+            android:layout_marginTop="297dp"
+            android:layout_marginEnd="22dp"
+            android:background="#000000" />
+
+        <View
+            android:id="@+id/divider9"
+            android:layout_width="190dp"
+            android:layout_height="1dp"
+            android:layout_below="@+id/emri"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="154dp"
+            android:layout_marginTop="357dp"
+            android:layout_marginEnd="16dp"
+            android:background="#000000" />
+
+        <View
+            android:id="@+id/divider8"
+            android:layout_width="190dp"
+            android:layout_height="1dp"
+            android:layout_below="@+id/emri"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="154dp"
+            android:layout_marginTop="239dp"
+            android:layout_marginEnd="19dp"
+            android:background="#000000" />
+
+        <View
+            android:id="@+id/divider6"
+            android:layout_width="190dp"
+            android:layout_height="1dp"
+            android:layout_below="@+id/emri"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="154dp"
+            android:layout_marginTop="121dp"
+            android:layout_marginEnd="11dp"
+            android:background="#000000" />
+
+        <View
+            android:id="@+id/divider4"
+            android:layout_width="190dp"
+            android:layout_height="1dp"
+            android:layout_below="@+id/emri"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="154dp"
+            android:layout_marginTop="58dp"
+            android:layout_marginEnd="16dp"
+            android:background="#000000" />
+
+        <ImageView
+            android:id="@+id/editname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_action_editdark"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="20dp"/>
+
+        <ImageView
+            android:id="@+id/editsurname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_action_editdark"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="80dp"/>
+
+        <ImageView
+            android:id="@+id/editemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_action_editdark"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="140dp"/>
+
+        <ImageView
+            android:id="@+id/editlocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_action_editdark"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="200dp"/>
+
+        <ImageView
+            android:id="@+id/editphone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_action_editdark"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="260dp"/>
+
+        <ImageView
+            android:id="@+id/editdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_action_editdark"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="320dp"/>
+
+        <ImageView
+            android:id="@+id/editblood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_action_editdark"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="380dp"/>
+
+    </RelativeLayout>
+
+</ScrollView>

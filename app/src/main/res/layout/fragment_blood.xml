@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D3D8D8"
+    tools:context=".BloodFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:hint="Shkruani titullin"
+            android:padding="10dp"
+            android:singleLine="true" />
+
+        <TextView
+            android:layout_width="198dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="17dp"
+            android:text="Zgjidh tipin e gjakut te pacientit"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="-45dp"
+            android:layout_marginEnd="23dp"
+            android:layout_marginBottom="8dp"
+            android:background="#FFFFFF"
+            android:textColor="#000000" />
+
+
+        <TextView
+            android:layout_width="198dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:text="Zgjidh Spitalin"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/spinner3"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="-30dp"
+            android:layout_marginBottom="20dp"
+            android:background="#FFFFFF"
+            android:textColor="#000000" />
+
+        <Spinner
+            android:id="@+id/spinner4"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:background="#FFFFFF"
+            android:textColor="#000000" />
+
+
+        <EditText
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:gravity="start"
+            android:hint="Shkruani pershkrimin"
+            android:inputType="textCapSentences|textMultiLine"
+            android:minHeight="120dp"
+            android:padding="10dp" />
+
+
+        <Button
+            android:id="@+id/upload"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:layout_marginLeft="290dp"
+            android:text="Posto" />
+
+
+
+    </LinearLayout>
+</ScrollView>
